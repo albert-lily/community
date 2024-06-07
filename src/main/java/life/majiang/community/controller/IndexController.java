@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 //@Controller定义一个控制器类
 @Controller
-public class HelloController {
+public class IndexController {
     //@GetMapping用于处理请求方法的GET类型
-    @GetMapping("/hello")
-    public String hello(@RequestParam(name = "name") String name, Model model){
-        model.addAttribute("name",name);
-        return "hello";
+    @GetMapping("/")
+    public String index(){
+        return "index";
     }
 }
