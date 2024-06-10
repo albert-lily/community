@@ -6,13 +6,15 @@
 [Github deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)  
 [Bootstrap](https://v3.bootcss.com/getting-started/)    
 [Github OAuth Document](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app)    
-https://square.github.io/okhttp/  
-https://mvnrepository.com/  
-https://www.runoob.com/mysql/mysql-tutorial.html  
-https://docs.spring.io/spring-boot/reference/data/sql.html
+[OkHttp](https://square.github.io/okhttp/)  
+[Maven Repository](https://mvnrepository.com/)  
+[菜鸟教程](https://www.runoob.com/mysql/mysql-tutorial.html)  
+[SQL Databases](https://docs.spring.io/spring-boot/reference/data/sql.html)
 ## 工具 
 [Git](https://git-scm.com/download)  
-[Visual Paradigm](https://www.visual-paradigm.com)
+[Visual Paradigm](https://www.visual-paradigm.com)  
+[Flyway](https://flywaydb.org/)  
+[Lombok](https://projectlombok.org/)
 ## 脚本
 ```sql
 -- auto-generated definition
