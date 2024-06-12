@@ -24,3 +24,12 @@ body{
 .pagination{
     float: right;
 }
+.profile .section{
+    margin-top: 20px;
+}
+.community-menu{
+    color: #329;
+}
+hr{
+    border-top:2px solid orange;
+}

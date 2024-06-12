@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 
 import javax.sql.DataSource;
 
-public class DruidCOnfig extends WebMvcAutoConfiguration {
+public class DruidConfig extends WebMvcAutoConfiguration {
     @ConfigurationProperties("spring.datasource")
     @Bean
     public DataSource dataSource(){

@@ -1,7 +1,7 @@
 ## 码匠社区
 ## 资料
 [Spring 文档](https://docs.spring.io/spring-boot/documentation.html)  
-[Spring Web](https://spring.io/guides/gs/serving-web-content/)  
+[Spring Web MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)   
 [es](https://elasticsearch.cn/explore)  
 [Github deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)  
 [Bootstrap](https://v3.bootcss.com/getting-started/)    
@@ -11,6 +11,7 @@
 [菜鸟教程](https://www.runoob.com/mysql/mysql-tutorial.html)  
 [SQL Databases](https://docs.spring.io/spring-boot/reference/data/sql.html)  
 [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html)  
+[MyBatis Generator](https://mybatis.org/generator/index.html)  
 ## 工具 
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
@@ -34,5 +35,7 @@ create table user_k
     gmt_modified bigint       null
 );
 
-
+```
+```
+mvn '-Dmybatis.generator.overwrite=true' mybatis-generator:generate
 ```
