@@ -16,7 +16,8 @@
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
 [Flyway](https://flywaydb.org/)  
-[Lombok](https://projectlombok.org/)
+[Lombok](https://projectlombok.org/)  
+[Apifox](https://app.apifox.com/main/teams/2654958?tab=project)
 ## 快捷键
 ```idea
 ctrl+shift+f  类内搜索关键字
@@ -35,6 +36,9 @@ create table user_k
     gmt_modified bigint       null
 );
 
+```
+```
+mvn flyway:migrate
 ```
 ```
 mvn '-Dmybatis.generator.overwrite=true' mybatis-generator:generate

@@ -16,6 +16,9 @@ body{
     width: 40px;
     height: 40px;
 }
+.media-body-another{
+    padding-top: 10px;
+}
 .text-desc{
     font-size: 12px;
     font-weight: normal;
@@ -28,8 +31,22 @@ body{
     margin-top: 20px;
 }
 .community-menu{
+    font-size: 15px;
     color: #329;
 }
 hr{
-    border-top:2px solid orange;
+    border-top:3px solid #ac2925;
+}
+.jumbotron{
+    margin: 50px;
+}
+.hr-another{
+    border-top:4px dashed #444444;
+}
+.comment{
+    margin: 10px 0;
+}
+.btn-success-add{
+    margin-bottom: 10px;
+    float: right;
 }
