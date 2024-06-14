@@ -5,8 +5,9 @@ public enum CustomizeErrorCode implements ICustomizeErrorCode{
     TARGET_PARAM_NOt_FOUND(2002,"未选中任何问题或评论进行回复！！！"),
     NO_LOGIN(2003,"当前操作需要登录，请登录后重试！！！"),
     SYS_ERROR(2004,"服务器冒烟了，要不你稍后再试试！！！"),
-    TYPE_PARAM_LOST(2005,"评论类型错误或不存在"),
-    COMMENT_NOT_FOUND(2006,"你回复的评论不存在了！！！" );
+    TYPE_PARAM_LOST(2005,"评论类型错误或不存在！！！"),
+    COMMENT_NOT_FOUND(2006,"你回复的评论不存在了！！！" ),
+    COMMENT_IS_NULL(2007,"评论内容不能为空，请重试！！！");
     private String message;
     private Integer code;
 

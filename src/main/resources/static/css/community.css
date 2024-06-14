@@ -42,6 +42,7 @@ hr{
 }
 .hr-another{
     border-top:4px dashed #444444;
+    margin-top: 0;
 }
 .comment{
     margin: 10px 0;
@@ -49,4 +50,59 @@ hr{
 .btn-success-add{
     margin-bottom: 10px;
     float: right;
+}
+.h-sp{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.hr-another-2{
+    margin-top: 0;
+}
+.menu{
+    color: grey;
+}
+.menu .icon{
+    font-size: 16px;
+    margin: 5px 60px 0 0;
+    cursor: pointer;
+}
+.menu .time{
+    font-size: 16px;
+    font-family: "微软雅黑", serif;
+}
+.menu .icon:hover{
+    color: #2b669a;
+}
+.menu .icon.active{
+    color: #2b669a;
+}
+.comments{
+    margin-bottom: 15px;
+    border-bottom: 1px solid orange;
+    padding-bottom: 7px;
+}
+.text-m{
+    margin: 7px 0;
+}
+.hf-s{
+        margin-bottom: 0;
+        font-style: italic;
+        font-weight: bold;
+}
+.title-h{
+    font-family: fantasy;
+    font-size: x-large;
+}
+.sub-comments{
+    margin-top: 15px;
+    border: 2px solid #7777;
+    padding-top: 12px;
+    border-radius: 7px;
+    margin-bottom: 12px;
+}
+.sub-comments .btn{
+    margin: 10px 0;
 }
