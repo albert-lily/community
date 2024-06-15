@@ -46,6 +46,8 @@ public class CommentController {
     @RequestMapping(value = "/comment/{id}",method = RequestMethod.GET)
     public ResultDTO<List<CommentDTO>> comments(@PathVariable(name = "id") Long id){
         List<CommentDTO> commentDTOS =  commentService.listByTargetId(id,CommentTypeEnum.COMMENT);
+        //累加回复数
+       // questionService.incView(id);
         return ResultDTO.successOf(commentDTOS);
     }
 }

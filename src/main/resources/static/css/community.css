@@ -34,7 +34,10 @@ body{
     font-size: 15px;
     color: #329;
 }
-hr{
+.hr-tag{
+    margin: 10px 0;
+}
+.hr-one{
     border-top:3px solid #ac2925;
 }
 .jumbotron{
@@ -96,6 +99,9 @@ hr{
     font-family: fantasy;
     font-size: x-large;
 }
+.icon-count{
+    vertical-align: text-top;
+}
 .sub-comments{
     margin-top: 15px;
     border: 2px solid #7777;
@@ -103,6 +109,47 @@ hr{
     border-radius: 7px;
     margin-bottom: 12px;
 }
+.icon{
+    border-right: 5px;
+}
 .sub-comments .btn{
     margin: 10px 0;
+}
+.tab-pane .label-info{
+    font-size: 15px;
+    white-space: normal;
+    margin: 7px 3px;
+    display: inline-block;;
+}
+.question-tag{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.relate-t{
+    list-style: none;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.arrow-d{
+    margin-left: 16px;
+    font-size: 20px;
+}
+.arrow-h{
+    margin-bottom: 2px;
+}
+.nav-tabs{
+    margin-bottom: 10px;
+}
+.lqs{
+    height: 55%;
+    width: 100%;
+}
+.publish-tag-tab{
+    display: none;
+    margin-top: 10px;
+}
+.tab-pane .label-info{
+    margin-right: 7px;
 }
