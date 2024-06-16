@@ -17,7 +17,8 @@
 [Visual Paradigm](https://www.visual-paradigm.com)  
 [Flyway](https://flywaydb.org/)  
 [Lombok](https://projectlombok.org/)  
-[Apifox](https://app.apifox.com/main/teams/2654958?tab=project)
+[Apifox](https://app.apifox.com/main/teams/2654958?tab=project)  
+[Editor.md](https://github.com/pandao/editor.md?tab=readme-ov-file)
 ## 快捷键
 ```idea
 ctrl+shift+f  类内搜索关键字
