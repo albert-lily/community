@@ -1,0 +1,155 @@
+body{
+    background-color: #efefef;
+}
+.main{
+    background-color: white;
+    margin: 40px;
+}
+.bnt-publish{
+    float: right;
+    margin-bottom: 15px;
+}
+.media{
+    margin-bottom: 15px;
+}
+.media-object{
+    width: 40px;
+    height: 40px;
+}
+.media-body-another{
+    padding-top: 10px;
+}
+.text-desc{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+.pagination{
+    float: right;
+}
+.profile .section{
+    margin-top: 20px;
+}
+.community-menu{
+    font-size: 15px;
+    color: #329;
+}
+.hr-tag{
+    margin: 10px 0;
+}
+.hr-one{
+    border-top:3px solid #ac2925;
+}
+.jumbotron{
+    margin: 50px;
+}
+.hr-another{
+    border-top:4px dashed #444444;
+    margin-top: 0;
+}
+.comment{
+    margin: 10px 0;
+}
+.btn-success-add{
+    margin-bottom: 10px;
+    float: right;
+}
+.h-sp{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.hr-another-2{
+    margin-top: 0;
+}
+.menu{
+    color: grey;
+}
+.menu .icon{
+    font-size: 16px;
+    margin: 5px 60px 0 0;
+    cursor: pointer;
+}
+.menu .time{
+    font-size: 16px;
+    font-family: "微软雅黑", serif;
+}
+.menu .icon:hover{
+    color: #2b669a;
+}
+.menu .icon.active{
+    color: #2b669a;
+}
+.comments{
+    margin-bottom: 15px;
+    border-bottom: 1px solid orange;
+    padding-bottom: 7px;
+}
+.text-m{
+    margin: 7px 0;
+}
+.hf-s{
+        margin-bottom: 0;
+        font-style: italic;
+        font-weight: bold;
+}
+.title-h{
+    font-family: fantasy;
+    font-size: x-large;
+}
+.icon-count{
+    vertical-align: text-top;
+}
+.sub-comments{
+    margin-top: 15px;
+    border: 2px solid #7777;
+    padding-top: 12px;
+    border-radius: 7px;
+    margin-bottom: 12px;
+}
+.icon{
+    border-right: 5px;
+}
+.sub-comments .btn{
+    margin: 10px 0;
+}
+.tab-pane .label-info{
+    font-size: 15px;
+    white-space: normal;
+    margin: 7px 3px;
+    display: inline-block;;
+}
+.question-tag{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.relate-t{
+    list-style: none;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.arrow-d{
+    margin-left: 16px;
+    font-size: 20px;
+}
+.arrow-h{
+    margin-bottom: 2px;
+}
+.nav-tabs{
+    margin-bottom: 10px;
+}
+.lqs{
+    height: 55%;
+    width: 100%;
+}
+.publish-tag-tab{
+    display: none;
+    margin-top: 10px;
+}
+.tab-pane .label-info{
+    margin-right: 7px;
+}
