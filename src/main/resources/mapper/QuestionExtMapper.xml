@@ -31,6 +31,24 @@
     where id = #{id}
   </update>
   <select id="selectRelated" parameterType="life.majiang.community.model.Question" resultMap="BaseResultMap">
-    select * from community.question where id != #{id} and tag regexp #{tag}
+  select * from community.question where id != #{id} and tag regexp #{tag}
+  </select>
+  <select id="countBySearch" parameterType="life.majiang.community.dto.QuestionQueryDTO" resultType="java.lang.Integer">
+        select count(*) from community.question
+        <where>
+            <if test="search != null">
+                        and title regexp #{search}
+            </if>
+        </where>
+
+  </select>
+  <select id="selectBySearch" parameterType="life.majiang.community.dto.QuestionQueryDTO" resultMap="BaseResultMap">
+        select * from community.question
+        <where>
+            <if test="search != null">
+                        and title regexp #{search}
+            </if>
+        </where>
+        order by gmt_modified desc,gmt_create limit #{page},#{size}
   </select>
 </mapper>

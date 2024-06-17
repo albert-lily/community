@@ -106,12 +106,12 @@
                     <div class="media-left">
                         <a href="#">
                             <img class="media-object img-rounded"
-                                 th:src="${question.user.avatarUrl}">
+                                 th:src="${session.user != null ? session.user.avatarUrl : '/images/default_avatar.png'}">
                         </a>
                     </div>
                     <div class="media-body media-body-another">
                         <h4 class="media-heading">
-                            <a th:text="${question.user.name}"></a>
+                            <a th:text="${session.user != null ? session.user.name : '游客'}"></a>
                         </h4>
                     </div>
                 </div>
@@ -155,5 +155,6 @@
         </div>
     </div>
 </div>
+<div th:insert="~{footer :: foot}"></div>
 </body>
 </html>
