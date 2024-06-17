@@ -23,6 +23,7 @@
 ## 快捷键
 ```idea
 ctrl+shift+f  类内搜索关键字
+alt+enter 添加方法
 ```
 ## 脚本
 ```sql
