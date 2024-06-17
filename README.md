@@ -12,6 +12,7 @@
 [SQL Databases](https://docs.spring.io/spring-boot/reference/data/sql.html)  
 [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html)  
 [MyBatis Generator](https://mybatis.org/generator/index.html)  
+[Tencent Cloud SDK](https://cloud.tencent.com/document/product/436/10199)  
 ## 工具 
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
